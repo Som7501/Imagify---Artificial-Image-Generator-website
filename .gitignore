@@ -1,0 +1,73 @@
+# =========================
+# Global
+# =========================
+node_modules/
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# =========================
+# Client (React)
+# =========================
+client/node_modules/
+client/build/
+client/dist/
+
+# React environment files
+client/.env
+client/.env.local
+client/.env.development
+client/.env.production
+
+# =========================
+# Server (Node / Express)
+# =========================
+server/node_modules/
+server/dist/
+server/build/
+
+# Server environment files
+server/.env
+server/.env.local
+
+# =========================
+# Database / Uploads
+# =========================
+server/uploads/
+server/tmp/
+
+# =========================
+# Coverage / Cache
+# =========================
+coverage/
+.cache/
+.parcel-cache/
+
+# =========================
+# Misc
+# =========================
+*.log
+*.pid
+*.seed
+*.tgz
+
+# =========================
+# Git
+# =========================
+.git/
