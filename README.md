@@ -54,8 +54,8 @@ It features **secure authentication**, a **credit-based usage system**, and a **
 
 | Category | Technologies |
 |-------|-------------|
-| **Frontend** | React 19, Vite, Tailwind CSS 4, Framer Motion, Axios |
-| **Backend** | Node.js, Express.js |
+| **Frontend** | React 19, React Router Dom, Vite, Tailwind CSS 4, Framer Motion, Axios |
+| **Backend** | Node.js, Express.js, CORS |
 | **Database** | MongoDB |
 | **Security** | JWT, bcrypt |
 | **Notifications** | React Toastify |
@@ -90,7 +90,7 @@ JWT_SECRET=your_jwt_secret
 ```
 
 ### Client (client/.env)
-```
+```env
 VITE_BACKEND_URL=http://localhost:4000
 ```
 
@@ -135,24 +135,24 @@ Backend → http://localhost:4000
 
  📐 Advanced Image Controls
 
-    Square / Landscape / Portrait ratios
+   Square / Landscape / Portrait ratios
 
-    Prompt enhancement options
+   Prompt enhancement options
 
 ---
 
 
 ## 🌟 Why This Project Stands Out
 
-SaaS-style credit monetization model
+  SaaS-style credit monetization model
 
-Clean client–server separation
+  Clean client–server separation
 
-Secure production-grade authentication
+  Secure production-grade authentication
 
-Scalable MERN architecture
+  Scalable MERN architecture
 
-Resume & recruiter friendly
+  Resume & recruiter friendly
 
 ---
 
